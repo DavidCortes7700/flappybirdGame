@@ -95,7 +95,6 @@ function loop(){
             (personaje.y <= tuberias[i].y + tuberiaNorte.height ||
             personaje.y + bird.height >= tuberias[i].y+constante) || 
             personaje.y + bird.height >= ctx.canvas.height - suelo.height){
-            alert("Perdiste PERRA");
             location.reload();
         }
         if(tuberias[i].x == 40){
